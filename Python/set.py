@@ -1,0 +1,10 @@
+set={1,2,3,4,"Swalla","PUBG"}
+set2={1,2,3,4,5,6,7}
+print(set.intersection(set2))
+print(set.issubset(set2))
+set.add("tokyo")
+set.discard("Swalla")
+print(set)
+print(set.pop())
+print(set.pop())
+print(set.pop())
